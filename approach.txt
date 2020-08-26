@@ -1,0 +1,9 @@
+I first extracted the year , month and day from the date and created independent 3 variables out of it.
+Then I implemented the leave one out encoding on the 3 categorical variables i.e State, Market category and Product category
+Then I predicted the target values using regression decision tree.
+This prediction was not perfect
+Then I used regression for each of the leaves of the decision tree.
+The regression was for the: grade, demand, high_cap_price, year, month, day, demand*grade, demand*high_cap_price 
+Then modified the prediction.
+
+I have fine tuned the decision tree for its no. of splits using a cross validation subset
